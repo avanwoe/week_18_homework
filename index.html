@@ -1,13 +1,158 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/style.css"/>
+  <!-- meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+
+  <title>Ashley V. Designs</title>
 </head>
+
 <body>
-   <h1>Hello World</h1> 
-</body>
+
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+    <a class="navbar-brand" href="#"><img src="images/portfoliologo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">projects <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">about</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contact</a>
+          </li>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End Nav Bar -->
+
+  <!-- Jumbotron -->
+  <div class="jumbotron photoBackground" img="images/mountainlandscape.png">
+    <div class="jumboCopy">
+      <h1 class="display-4">Hi! I'm Ashley</h1>
+      <p class="lead">I am a UX/UI designer who is passionate about improving my little corner of the world.</p>
+      <a class="btn btn-info btn-lg" href="#" role="button">download resume</a>
+    </div>
+  </div>
+  <!-- End jumbotron -->
+
+  <!-- Cards -->
+  <div class="container-fluid content">
+    <h2 class="sectionHeading">recent projects</h2>
+    <div class="row recentProjects">
+
+      <!-- Skill 1 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="images/bin it mockup.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BIN-IT</h5>
+            <p class="card-text">A creative way to find and utilize recycling options near you.</p>
+            <a href="#" class="btn btn-outline-info">see project</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Skill 1 -->
+
+      <!-- Skill 2 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="images/roam mockup.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ROAM</h5>
+            <p class="card-text">Designed to assist every type of traveler in discovering and booking travel experiences </p>
+            <a href="#" class="btn btn-outline-info">see project</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Skill 2 -->
+
+      <!-- Skill 3 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="images/boon mockup.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BOON</h5>
+            <p class="card-text">An original gift-giving app for the thoughtful but last minute giver.</p>
+            <a href="#" class="btn btn-outline-info">see project</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Skill 3 -->
+    </div>
+  </div>
+  <!-- End Cards -->
+
+  <!-- Content -->
+  <div class="container-fluid content">
+    <h2 class="sectionHeading">my skills</h2>
+
+    <!-- Row 1 -->
+    <div class="row valueProp">
+      <div class="sideAccent">
+      </div>
+      <div class="imageContainer col-3">
+        <img src="images/communicationlogo.png">
+      </div>
+      <div class="text col-8">
+        <h3>Communication</h3>
+        <p>
+         Team work makes the dream work! I enjoy collaborating with others, and am always open to new ideas and feedback. 
+        </p>
+      </div>
+    </div>
+    <!-- End Row 1 -->
+
+    <!-- Row 2 -->
+    <div class="row valueProp">
+      <div class="sideAccent">
+      </div>
+      <div class="imageContainer col-3">
+        <img src="images/reliablelogo.png">
+      </div>
+      <div class="text col-8">
+        <h3>Reliability</h3>
+        <p>
+          I am not a fan of wasting time, whether it is mine or someone else's, so I do everything in my power to complete projects on time, according to the guidelines, and on or under budget. 
+        </p>
+      </div>
+    </div>
+    <!-- End Row 2 -->
+
+    <!-- Row 3 -->
+    <div class="row valueProp">
+      <div class="sideAccent">
+      </div>
+      <div class="imageContainer col-3">
+        <img src="images/skillsoftware.png">
+      </div>
+      <div class="text col-8">
+        <h3>Figma, Adobe XD, Miro, Google Suite</h3>
+        <p>
+          I am proficient in each of these systems. I also enjoy learning new software, and am always up for a challenge!
+        </p>
+      </div>
+    </div>
+    <!-- End Row 3 -->
+
+  </div>
+  <!-- End Content -->
+
+
+
+
 </html>
